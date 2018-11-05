@@ -26,6 +26,24 @@
              text-decoration: none;
              
         }
+
+        .p-2 {
+          padding: 0.25rem 1rem 0.25rem 1rem !important;
+          margin: 0.1rem 1rem 0.1rem 1rem;
+        }
+
+        .p-2 a {
+          flex-wrap: nowrap;
+        }
+
+        #navbar-brand, .p-2 a {
+          color: #4d81cc;
+        }
+
+        #signup, #login {
+          border: 1px solid #4d81cc;
+          border-radius: 0.25rem;
+        }
     </style>
 
   </head>
