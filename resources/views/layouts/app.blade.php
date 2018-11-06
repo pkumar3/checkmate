@@ -44,6 +44,15 @@
           border: 1px solid #4d81cc;
           border-radius: 0.25rem;
         }
+
+        .card {
+          margin-top: 2rem;
+        }
+
+        #main-wrapper {
+          background: linear-gradient(#3466ae, #5390f1);
+          height: 100%;
+        }
     </style>
 
   </head>

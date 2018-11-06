@@ -19,7 +19,7 @@
         background: #FFFFFF;
         color: #4d81cc;
         padding: 1.5rem 5.5rem;
-        margin: 1rem 0rem;
+        margin: 1rem 1rem;
     }
 
     #cta:hover {
