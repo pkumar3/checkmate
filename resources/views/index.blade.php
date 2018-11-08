@@ -64,7 +64,7 @@
                     
                 </div>
                 <div class="col-offset-6">
-                    <a class="btn" id="cta" href="">Sign Up</a>
+                    <a class="btn" id="cta" href="/register">Sign Up</a>
                 </div>
             </div><!-- /.row -->
 
