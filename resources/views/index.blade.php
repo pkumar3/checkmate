@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('pageTitle', 'Welcome')
+
 @section('css')
 <style type="text/css">
 
@@ -39,7 +41,7 @@
 
 
 </style>
-@stop
+@endsection
 
 @section('body')
     @extends('layouts.nav-home')
@@ -68,4 +70,4 @@
 
         </div><!-- /.container -->
     </div><!-- /#main-wrapper -->
-@stop
+@endsection
