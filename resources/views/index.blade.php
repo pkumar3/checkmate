@@ -5,25 +5,39 @@
 @section('css')
 <style type="text/css">
 
-    /* Refers to the col-6 that contains our graphic (img) */
-    #graphic-column {
-        display: none;
-    }
-
     #main-wrapper {
         background: linear-gradient(#3466ae, #5390f1);
         height: 100%;
     }
 
+    /* Rule for laptop-page col-6 that contains the image */
+    #graphic-column {
+        display: none;
+    }
+
+    /* Rules for mobile image */
+    #graphic-mobile {
+        width: 100%;
+    }
+
+    /* Row div containing image formatted for mobile */
+    #graphic-row-mobile {
+        margin-top: 1.5rem;
+    }
+
     #heading {
         color: #FFFFFF;
         margin-top: 3rem;
+        font-size: 2em;
     }
 
     #sub-heading {
         width: 100%;
+        font-size: 1.3em;
+        margin-top: 3rem;
     }
 
+    /* Rules for both headings */
     #text {
         text-align: center;
     }
@@ -35,7 +49,7 @@
         color: #4d81cc;
         padding: 1.5rem;
         width: 100%;
-        margin: 1rem 0;
+        margin: 5rem 0;
     }
 
     #cta:hover {
@@ -47,6 +61,7 @@
         color: #FFFFFF;
     }
 
+    /* Rules for aligning columns correctly between laptop/phone display */
     .div-align-lg {
         display: none;
     }
@@ -67,11 +82,16 @@
             display: block;
         }
 
+        #graphic-row-mobile {
+            display: none;
+        }
+
         #heading {
-            margin-top: 15rem;
+            margin: 15rem 0 0 1.5rem;
         }
 
         #sub-heading {
+            margin-left: 1.5rem;
             width: 50%;
         }
 
@@ -112,6 +132,13 @@
                     <h3 id="sub-heading">No more waiting for the check when you're done dining</h3>
                 </div>
             </div><!-- /.row -->
+
+            <div class="row" id="graphic-row-mobile">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <img id="graphic-mobile" src="https://d32myzxfxyl12w.cloudfront.net/images/blog_images/b20db22a3937fc97ce1162041495a0339f2c0a5a.png">
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-6 div-align-lg"></div>   <!-- This col is displayed on large screens -->
