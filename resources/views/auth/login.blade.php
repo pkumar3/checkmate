@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('pageTitle', 'Log In')
 
 @section('body')
     @extends('layouts.nav-home')

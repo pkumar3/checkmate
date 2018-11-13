@@ -7,7 +7,7 @@
         <div id="navbar_list" class="collapse navbar-collapse">
             <ul class="mr-auto"></ul>
             <ul class="navbar-nav nav-fill">
-                <div class="p-2"><li><a href="">About</a></li></div>
+                <div class="p-2"><li><a href="/about">About</a></li></div>
                 <div class="p-2"><li><a href="">Contact</a></li></div>
                 <div class="p-2" id="signup"><li><a href="/register">Sign Up</a></li></div>
                 <div class="p-2" id="login"><li><a href="/login">Log In</a></li></div>
