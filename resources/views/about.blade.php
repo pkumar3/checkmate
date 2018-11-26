@@ -117,8 +117,8 @@
                 <div class="card">
                     <div class="card-body">
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
-                        <h2>Elinam </h2>
-                        <h3>Developer</h3>
+                        <h2>Elinam Gbordzoe</h2>
+                        <h3>Back-end Developer</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
@@ -126,8 +126,8 @@
                 <div class="card">
                     <div class="card-body">
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
-                        <h2>Some Handsome Guy 2</h2>
-                        <h3>Developer</h3>
+                        <h2>Pranshu Kumar</h2>
+                        <h3>Front-end Developer</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
@@ -135,8 +135,8 @@
                 <div class="card">
                     <div class="card-body">
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
-                        <h2>Some Handsome Guy</h2>
-                        <h3>Developer</h3>
+                        <h2>Rachel Price</h2>
+                        <h3>Designer</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
@@ -144,8 +144,8 @@
                 <div class="card">
                     <div class="card-body">
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
-                        <h2>Some Handsome Guy</h2>
-                        <h3>Developer</h3>
+                        <h2>Steven Sitko</h2>
+                        <h3>Front-end Developer</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
