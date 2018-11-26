@@ -27,7 +27,7 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * About page
      *
      * @return \Illuminate\Http\Response
      */
@@ -37,7 +37,7 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * Contact page
      *
      * @return \Illuminate\Http\Response
      */
