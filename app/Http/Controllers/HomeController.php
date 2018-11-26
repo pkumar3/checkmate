@@ -37,6 +37,16 @@ class HomeController extends Controller
     }
 
     /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    /**
      * Account page
      *
      * @return \Illuminate\Http\Response
