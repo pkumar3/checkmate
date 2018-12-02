@@ -45,4 +45,15 @@ class HomeController extends Controller
     {
         return view('account');
     }
+
+
+    /**
+     * View list of participating restaurants page
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function view_restaurants()
+    {
+        return view('view-restaurants');
+    }
 }
