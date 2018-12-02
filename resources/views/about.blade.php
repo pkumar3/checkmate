@@ -35,6 +35,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
+        padding: 0 0 1.5rem 0;
     }
 
     .card {
@@ -46,8 +47,8 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 8em;
-        height: 8em;
+        width: 6em;
+        height: 6em;
         border-radius: 50%;
         margin-bottom: 1.2rem;
     }
@@ -83,6 +84,11 @@
             width: 22vw;
             margin: 0 1.5rem 0 1.5rem;
         }
+
+        .card img {
+            width: 8em;
+            height: 8em;
+        }
     }
 </style>
 @endsection
@@ -109,24 +115,41 @@
             <h1>The Team</h1>
             <div class="team-members flex-container">
                 <div class="card">
-
                     <div class="card-body">
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
-                        <h2>Some Handsome Guy</h2>
-                        <h3>Developer</h3>
+                        <h2>Elinam Gbordzoe</h2>
+                        <h3>Back-end Developer</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
 
                 <div class="card">
-
                     <div class="card-body">
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
-                        <h2>Some Handsome Guy 2</h2>
-                        <h3>Developer</h3>
+                        <h2>Pranshu Kumar</h2>
+                        <h3>Front-end Developer</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
+                        <h2>Rachel Price</h2>
+                        <h3>Designer</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
+                        <h2>Steven Sitko</h2>
+                        <h3>Front-end Developer</h3>
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>

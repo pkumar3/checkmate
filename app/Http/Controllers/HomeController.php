@@ -27,13 +27,23 @@ class HomeController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * About page
      *
      * @return \Illuminate\Http\Response
      */
     public function about()
     {
         return view('about');
+    }
+
+    /**
+     * Contact page
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function contact()
+    {
+        return view('contact');
     }
 
     /**
