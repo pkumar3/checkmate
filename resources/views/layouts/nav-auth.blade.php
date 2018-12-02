@@ -7,8 +7,8 @@
         <div id="navbar_list" class="collapse navbar-collapse">
             <ul class="mr-auto"></ul>
             <ul class="navbar-nav nav-fill">
-                <div class="p-2"><li><a href="">About</a></li></div>
-                <div class="p-2"><li><a href="">Contact</a></li></div>
+                <div class="p-2"><li><a href="/about">About</a></li></div>
+                <div class="p-2"><li><a href="/contact">Contact</a></li></div>
                 <div class="p-2"><li class="dropdown"><a href="#"><i class="fas fa-user"></i>Test</a></li></div>
             </ul>
         </div><!-- /.nav-collapse -->
