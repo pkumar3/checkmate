@@ -66,4 +66,15 @@ class HomeController extends Controller
     {
         return view('view-restaurants');
     }
+
+    /**
+     * View the details for a single participating restaurant
+     * This will be changed or removed later
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function example_restaurant()
+    {
+        return view('example-restaurant');
+    }
 }
