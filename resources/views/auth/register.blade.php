@@ -1,10 +1,19 @@
 @extends('layouts.app')
 @section('pageTitle', 'Register')
 
+@section('css')
+<style type="text/css">
+    .page-content {
+        background: linear-gradient(#3466ae, #5390f1);
+        min-height: 100vh;
+    }
+</style>
+@endsection
+
 @section('body')
     @extends('layouts.nav-home')
 <div id="main-wrapper">
-    <div class="container">
+    <div class="container page-content">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">

@@ -49,6 +49,12 @@
           margin-top: 2rem;
         }
 
+        .page-content {
+            background: linear-gradient(#3466ae, #5390f1);
+            min-height: 100vh;
+            padding-bottom: 1rem;
+        }
+
         #main-wrapper {
           background: linear-gradient(#3466ae, #5390f1);
           height: 100%;

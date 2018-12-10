@@ -31,7 +31,7 @@
 	@extends('layouts.nav-auth')
 
 	<div id="main-wrapper">
-        <div class="container">
+        <div class="container page-content">
                 
             <div class="row">
             	<div class="col-6">

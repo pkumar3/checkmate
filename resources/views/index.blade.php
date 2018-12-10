@@ -5,9 +5,9 @@
 @section('css')
 <style type="text/css">
 
-    #main-wrapper {
+    .page-content {
         background: linear-gradient(#3466ae, #5390f1);
-        height: 100%;
+        min-height: 100vh;
     }
 
     /* Rule for laptop-page col-6 that contains the image */
@@ -120,7 +120,7 @@
 @section('body')
     @extends('layouts.nav-home')
     <div id="main-wrapper">
-        <div class="container">
+        <div class="container page-content"> 
                 
             <div class="row">
                 <div id="graphic-column" class="col-6">
