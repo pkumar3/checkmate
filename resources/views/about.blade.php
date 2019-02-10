@@ -136,7 +136,7 @@
                     <div class="card-body">
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
                         <h2>Rachel Price</h2>
-                        <h3>Designer</h3>
+                        <h3>Front-end Developer</h3>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
