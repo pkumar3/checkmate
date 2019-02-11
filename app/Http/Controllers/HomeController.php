@@ -77,4 +77,14 @@ class HomeController extends Controller
     {
         return view('example-restaurant');
     }
+
+    /**
+     * View the receipt-view page
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function receipt_view()
+    {
+        return view('receipt-view');
+    }
 }
