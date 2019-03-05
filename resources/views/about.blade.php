@@ -106,10 +106,7 @@
 
             <h1>About</h1>
             <div class="mission-text">
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p class="lead">Checkmate introduces a smarter check-in process to streamline and enhance the checkout process at sit-down restaurants. This minimizes the effort on the restaurant customer’s end - through our research (below) we’ve identified the major pain points of the restaurant checkout process as paying by card and the waiting time incurred as a result.  Checkmate aims to replace the card payment step with a simple “get up and go” approach, where a user would be free to leave the restaurant as soon as they’ve finished dining.</p>
             </div>
 
             <h1>The Team</h1>
@@ -119,7 +116,7 @@
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
                         <h2>Elinam Gbordzoe</h2>
                         <h3>Back-end Developer</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="lead">Elinam Gbordzoe is a Back-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering.</p>
                     </div>
                 </div>
 
@@ -128,7 +125,7 @@
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
                         <h2>Pranshu Kumar</h2>
                         <h3>Front-end Developer</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="lead"> Pranshu Kumar is a Front-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering.</p>
                     </div>
                 </div>
 
@@ -137,7 +134,7 @@
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
                         <h2>Rachel Price</h2>
                         <h3>Front-end Developer</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="lead">Rachel Price is a Front-end Developer and Designer for Checkmate. She is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering. </p>
                     </div>
                 </div>
 
@@ -146,7 +143,7 @@
                         <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
                         <h2>Steven Sitko</h2>
                         <h3>Front-end Developer</h3>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p class="lead">Steven Sitko is a Front-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering. </p>
                     </div>
                 </div>
 
