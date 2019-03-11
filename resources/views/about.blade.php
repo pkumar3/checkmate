@@ -25,8 +25,6 @@
     }
 
     .mission-text {
-        text-align: justify;
-        text-justify: inter-word;
         color: #DFDFDF;
     }
 
@@ -39,7 +37,7 @@
     }
 
     .card {
-        width: 90%;
+        width: 100%;
         margin: 0 1.5rem 0 1.5rem;
     }
 
@@ -65,8 +63,6 @@
 
     .card p {
         margin-top: 0.8rem; 
-        text-align: justify;
-        text-justify: inter-word;
     }
 
     /* Large screens */
