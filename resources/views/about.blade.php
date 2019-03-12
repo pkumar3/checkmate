@@ -102,7 +102,7 @@
 
             <h1>Our Mission</h1>
             <div class="mission-text">
-                <p class="lead">To </p>
+                <p class="lead">To eliminate the checkout process at sit-down restaurants </p>
             </div>
 
             <h1>About</h1>
@@ -123,7 +123,7 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
+                        <img src="/images/PranshuPicture.jpg">
                         <h2>Pranshu Kumar</h2>
                         <h3>Front-end Developer</h3>
                         <p class="lead"> Pranshu Kumar is a Front-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering.</p>
