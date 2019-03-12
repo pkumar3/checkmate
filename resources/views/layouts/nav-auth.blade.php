@@ -9,6 +9,7 @@
             <ul class="navbar-nav nav-fill">
                 <div class="p-2"><li><a href="/about">About</a></li></div>
                 <div class="p-2"><li><a href="/contact">Contact</a></li></div>
+                <div class="p-2"><li><a href="/view-restaurants">Restaurants</a></li></div>
                 <div class="p-2"><li class="dropdown"><a href="/account"><i class="fas fa-user"></i>Test</a></li></div>
             </ul>
         </div><!-- /.nav-collapse -->

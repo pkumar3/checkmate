@@ -24,6 +24,10 @@
     #right-side {
         margin-top: 3.8rem;
     }
+
+    .edit {
+
+    }
 </style>
 @endsection
 
@@ -37,7 +41,10 @@
             	<div class="col-6">
             		<h2 id="heading">{User Name} - Account</h2>
                     <div class="card">
-                        <div class="card-header"><b>Profile Info</b></div>
+                        <div class="card-header">
+                            <h4><b>Profile Info</b><h4>
+                            <p class="edit">Edit</p>
+                        </div>
                         <p class="info"><b>Phone:</b> xxx-xxx-1234</p>
                         <p class="info"><b>Email:</b> abc@xyz.com</p>
                         <p class="info"><b>Zip Code:</b> xxxxx</p>
