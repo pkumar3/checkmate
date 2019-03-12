@@ -65,8 +65,8 @@
 
     .card p {
         margin-top: 0.8rem; 
-        text-align: justify;
-        text-justify: inter-word;
+
+
     }
 
     /* Large screens */
@@ -131,7 +131,7 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <img src="https://i.pinimg.com/474x/e8/7e/a5/e87ea5f1565b458bb866112909f1a62e--headshot-photography-men-photography.jpg">
+                        <img src="https://flic.kr/p/2e4qsNQ">
                         <h2>Rachel Price</h2>
                         <h3>Front-end Developer</h3>
                         <p class="lead">Rachel Price is a Front-end Developer and Designer for Checkmate. She is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering. </p>
