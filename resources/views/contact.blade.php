@@ -3,19 +3,6 @@
 
 @section('css')
 <style type="text/css">
-    #wrapper {
-        background: linear-gradient(#3466ae, #5390f1);
-    }
-
-    .page-content {
-        width: 80vw;
-        min-height: 100%;
-        padding-top: 1.5rem;
-    }
-
-    #content-stack {
-    }
-
     #header {
         text-align: center;
     }
@@ -34,6 +21,7 @@
 
     #info-area h1 {
         color: #FFFFFF;
+        text-align: center;
     }
 
     #info-area p {
@@ -61,11 +49,6 @@
 
     /* Large screens */
     @media screen and (min-width: 500px) {
-        .page-content {
-            width: 70vw;
-            min-height: 100%;
-        }
-
         .heading-text {
             text-align: left;
             color: #DFDFDF;
@@ -93,7 +76,7 @@
 @section('body')
     @extends('layouts.nav-home')
     <div id="wrapper">
-        <div class="container page-content">
+        <div id="page-content" class="container">
             <div id="header">
                 <h1 id="main-heading">Checkmate<h1>
             </div>

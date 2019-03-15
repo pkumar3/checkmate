@@ -3,16 +3,7 @@
 
 @section('css')
 <style type="text/css">
-    #wrapper {
-        background: linear-gradient(#3466ae, #5390f1);
-    }
-
-    .page-content {
-        width: 80vw;
-        padding-top: 1.5rem;
-    }
-
-    .page-content h1 {
+    #page-content h1 {
         color: #FFFFFF;
         text-align: center;
     }
@@ -63,18 +54,11 @@
 
     .card p {
         margin-top: 0.8rem; 
-
-
     }
 
     /* Large screens */
     @media screen and (min-width: 500px) {
-        .page-content {
-            width: 70vw;
-            min-height: 100%;
-        }
-
-        .page-content h1 {
+        #page-content h1 {
             margin-top: 2rem;
         }
 
@@ -94,7 +78,7 @@
 @section('body')
     @extends('layouts.nav-home')
     <div id="wrapper">
-        <div class="container page-content">
+        <div id="page-content" class="container">
             <h1 id="main-heading">Checkmate</h1>
 
             <h1>Our Mission</h1>

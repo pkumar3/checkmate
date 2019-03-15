@@ -97,9 +97,8 @@
 @section('body')
 	@extends('layouts.nav-auth')
 
-	<div id="main-wrapper">
-        <div class="container page-content">
-                
+	<div id="wrapper">
+        <div id="page-content" class="container">
             <div class="row">
             	<div class="col-md-6">
             		<h2 id="heading">Participating Restaurants</h2>

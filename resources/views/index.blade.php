@@ -4,12 +4,6 @@
 
 @section('css')
 <style type="text/css">
-
-    .page-content {
-        background: linear-gradient(#3466ae, #5390f1);
-        min-height: 100vh;
-    }
-
     /* Rule for laptop-page col-6 that contains the image */
     #graphic-column {
         display: none;
@@ -119,8 +113,8 @@
 
 @section('body')
     @extends('layouts.nav-home')
-    <div id="main-wrapper">
-        <div class="container page-content"> 
+    <div id="wrapper">
+        <div id="page-content" class="container"> 
                 
             <div class="row">
                 <div id="graphic-column" class="col-6">

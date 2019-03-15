@@ -3,15 +3,6 @@
 
 @section('css')
 <style type="text/css">
-    #wrapper {
-        background: linear-gradient(#3466ae, #5390f1);
-    }
-
-    .page-content {
-        width: 86vw;
-        padding-top: 1.5rem;
-    }
-
     #receipt-area {
         color: #DFDFDF;
         padding-bottom: 0.5rem;
@@ -63,7 +54,7 @@
 
     /* Large screens */
     @media screen and (min-width: 500px) {
-        .page-content {
+        #page-content {
             width: 70vw;
             min-height: 100%;
         }
@@ -75,7 +66,7 @@
 @section('body')
     @extends('layouts.nav-auth')
     <div id="wrapper">
-        <div class="container page-content">
+        <div id="page-content" class="container">
             <div id="receipt-area">
                 <h1>Receipt</h1>
                 <h3>Your card ending in {ccn-last-4} was charged {charge} at {restaurant-name}.</h3>

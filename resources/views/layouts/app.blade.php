@@ -49,16 +49,24 @@
           margin-top: 2rem;
         }
 
-        .page-content {
+        #page-content {
             background: linear-gradient(#3466ae, #5390f1);
             min-height: 100vh;
+            min-width: 85vw;
+            padding-top: 1.5rem;
             padding-bottom: 1rem;
         }
 
-        #main-wrapper {
-          background: linear-gradient(#3466ae, #5390f1);
-          height: 100%;
-        }
+        @media screen and (min-width: 500px) {
+          #wrapper {
+              background: linear-gradient(#3466ae, #5390f1);
+          }
+
+          #page-content {
+              width: 70vw;
+              min-height: 100%;
+          }
+    }
     </style>
 
   </head>
