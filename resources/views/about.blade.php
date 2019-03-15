@@ -63,11 +63,8 @@
 
     .card p {
         margin-top: 0.8rem; 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> bb8bbf222b304330538af821110406d5e1a886d5
     }
 
     /* Large screens */
