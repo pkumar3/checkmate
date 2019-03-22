@@ -83,8 +83,8 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function receipt_view()
+    public function view_receipt()
     {
-        return view('receipt-view');
+        return view('view-receipt');
     }
 }

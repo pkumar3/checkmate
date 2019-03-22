@@ -84,6 +84,13 @@
         cursor: pointer;
     }
 
+    .view-menu {
+        background: #3e6bbe;
+        color: #FFFFFF; 
+        text-align: center;
+        width: 100%;
+    }
+
     @media screen and (min-width: 500px) {
         .modal-content {
             margin: 15vh auto;
@@ -106,37 +113,38 @@
                     <!-- Modal for displaying restaurant information -->
                     <div id="info-modal" class="modal-wrapper">
                         <div class="modal-content">
-                            <h1 id="modal-heading">{restaurant-name}</h1>
+                            <h1 id="modal-heading">Buffalo Wild Wings</h1>
                             <div class="modal-info-section">
-                                <h2>About {restaurant-name}</h2>
-                                <p class="lead modal-section-text">{description}</p>
+                                <h2>About Restaurant</h2>
+                                <p class="lead modal-section-text">Lively sports-bar chain dishing up wings & other American pub grub amid lots of large-screen TVs.</p>
                             </div>
-                            <div class="info-section">
+                            <div class="modal-info-section">
                                 <h2>Hours</h2>
                                 <ul>
-                                    <li>Monday - Friday: {opening_hours}</li>
-                                    <li>Saturday: {opening_hours}</li>
-                                    <li>Sunday: {opening_hours}</li>
+                                    <li>Sunday - Thursday: 11AM - 12AM</li>
+                                    <li>Friday - Saturday: 11AM - 1AM</li>
                                 </ul>
                             </div>
-                            <div class="info-section">
+                            <div class="modal-info-section">
                                 <h2>Contact</h2>
                                 <ul>
-                                    <li>Phone: {phone}</li>
-                                    <li>Email:  {email}</li>
+                                    <li>Phone: (513) 524-2999</li>
                                 </ul>
                             </div>
-                            <div class="info-section">
+                            <div class="modal-info-section">
                                 <h2>Location</h2>
-                                <p class="lead section-text">{restaurant_address}<br>{city}, {state}, {zip_code}</p>
+                                <p class="lead section-text">10 E Walnut St, Oxford, OH - 45056</p>
+                            </div>
+                            <div class="modal-info-section">
+                                <a href="https://www.buffalowildwings.com/en/food/" class="view-menu btn text-center">View Menu</a>
                             </div>
                             <span class="close-button" onclick="closeModal()">&times;</span>
                         </div>
                     </div>
 
             		<div class="card flex-row flex-wrap" onclick="openModal()">
-            			<img src="https://lh3.googleusercontent.com/proxy/ZOzDgg9u_knSA_aZfn-l9Hylf8CnzwCvvB_osuc-OGYBlbUlFPae8VZamNqi77lsUytLx_Ubaf5HsVqKcgyOMQYL-gT8TjkmkZ5TeMI3qlhT7uGUKGGo74vTMMf9aNkxfOz04yPTeVcstBaPLm95BbliBVdrPA=w240-h160-k-no" class="rounded-circle float-left">
-                        <p class="info text-right align-middle">{restaurant-name}</p>
+            			<img src="https://www.buffalowildwings.com/globalassets/placeholders/appicon.png" class="rounded-circle float-left">
+                        <p class="info text-right align-middle">Buffalo Wild Wings</p>
                     </div><!-- /.card -->
                     
                     <script>
