@@ -23,7 +23,7 @@
     }
 
     /* Info stored in modal popup */
-    #modal-heading {
+    .modal-heading {
         font-size: 2rem;
         padding-bottom: 1rem;
         text-align: center;
@@ -110,10 +110,65 @@
             	<div class="col-md-6">
             		<h2 id="heading">Participating Restaurants</h2>
 
+                    <?php
+                        /*
+                        function get_restaurant_info($mysqli) {
+                            $output_div = "";
+
+                            $query_result = mysqli_query($mysqli, "SELECT * FROM Restaurant");
+                            if (!$query_result) {
+                                error_log("Error on sql - $mysqli->error");
+                            } else {
+                                while ($row = mysqli_fetch_assoc($query_result)) {
+                                    $output_div .= "<div class=\"modal-wrapper\">";
+                                    $output_div .= "    <div class=\"modal-content\">";
+                                    $output_div .= "        <h1 class=\"modal-heading\">" . $row['restaurant_name'] . "</h1>";
+                                    $output_div .= "        <div class=\"modal-info-section\">";
+                                    $output_div .= "            <h2>About " . $row['restaurant_name'] . "</h2>";
+                                    $output_div .= "            <p class=\"lead modal-section-text\">" . $row['description'] . "</p>";
+                                    $output_div .= "        </div>";
+                                    $output_div .= "        <div class=\"modal-info-section\">";
+                                    $output_div .= "            <h2>Hours</h2>";
+                                    $output_div .= "            <ul>";
+                                    $output_div .= "                <li>" . $row['opening_hours'] . "</li>";
+                                    $output_div .= "            </ul>";
+                                    $output_div .= "        </div>";
+                                    $output_div .= "        <div class=\"modal-info-section\">";
+                                    $output_div .= "            <h2>Contact</h2>";
+                                    $output_div .= "            <ul>";
+                                    $output_div .= "                <li>Phone: " . $row['phone_number'] . "</li>";
+                                    $output_div .= "                <li>Email: " . $row['email'] . "</li>";
+                                    $output_div .= "            </ul>";
+                                    $output_div .= "        </div>";
+                                    $output_div .= "        <div class=\"modal-info-section\">";
+                                    $output_div .= "            <h2>Location</h2>";
+                                    $output_div .= "            <p class=\"lead section-text\">" . $row['restaurant_address'] . 
+                                                                ", " . $row['city'] . " " . $row['state'] . " - " . $row['zip_code'] . "</p>";
+                                    $output_div .= "        </div>";
+                                    $output_div .= "        <span class=\"close-button\" onclick=\"closeModal()\">$times;</span>";
+                                    $output_div .= "    </div>";
+                                    $output_div .= "</div>";
+                                }
+                            }
+                        }
+
+                        $mysqli = mysqli_connect("localhost", "user", "password", "db");
+                        if (mysqli_connect_errno($mysqli)) {
+                            error_log("Failed to connect to MySQL: " . mysqli_connect_error());
+                            die;
+                        }
+
+                        echo get_restaurant_info($mysqli);
+
+                        // MISSING FROM OUTPUT:  Menu link, App icon link
+                        */
+                    ?>
+
                     <!-- Modal for displaying restaurant information -->
+                    <!-- FIX ME : Need to change code to open a modal based on click target vs id -->
                     <div id="info-modal" class="modal-wrapper">
                         <div class="modal-content">
-                            <h1 id="modal-heading">Buffalo Wild Wings</h1>
+                            <h1 class="modal-heading">Buffalo Wild Wings</h1>
                             <div class="modal-info-section">
                                 <h2>About Restaurant</h2>
                                 <p class="lead modal-section-text">Lively sports-bar chain dishing up wings & other American pub grub amid lots of large-screen TVs.</p>
