@@ -149,6 +149,8 @@
                                     $output_div .= "    </div>";
                                     $output_div .= "</div>";
                                 }
+
+                                return $output_div;
                             }
                         }
 
