@@ -62,9 +62,9 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function view_restaurants()
+    public function restaurants()
     {
-        return view('view-restaurants');
+        return view('restaurants');
     }
 
     /**
@@ -79,12 +79,12 @@ class HomeController extends Controller
     }
 
     /**
-     * View the receipt-view page
+     * View the receipt view page
      *
      * @return \Illuminate\Http\Response
      */
-    public function view_receipt()
+    public function receipt()
     {
-        return view('view-receipt');
+        return view('receipt');
     }
 }

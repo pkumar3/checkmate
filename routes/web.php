@@ -20,6 +20,6 @@ Auth::routes();
 Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/contact', 'HomeController@contact')->name('contact');
 Route::get('/account', 'HomeController@account')->name('account');
-Route::get('/view-restaurants', 'HomeController@view_restaurants')->name('view-restaurants');
+Route::get('/restaurants', 'HomeController@restaurants')->name('restaurants');
 Route::get('/example-restaurant', 'HomeController@example_restaurant')->name('example-restaurant');
-Route::get('/view-receipt', 'HomeController@view_receipt')->name('view-receipt');
+Route::get('/receipt', 'HomeController@receipt')->name('receipt');

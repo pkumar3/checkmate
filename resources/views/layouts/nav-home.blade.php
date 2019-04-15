@@ -9,7 +9,7 @@
             <ul class="navbar-nav nav-fill">
                 <div class="p-2"><li><a href="/about">About</a></li></div>
                 <div class="p-2"><li><a href="/contact">Contact</a></li></div>
-                <div class="p-2"><li><a href="/view-restaurants">Restaurants</a></li></div>
+                <div class="p-2"><li><a href="/restaurants">Restaurants</a></li></div>
                 <div class="p-2" id="signup"><li><a href="/register">Sign Up</a></li></div>
                 <div class="p-2" id="login"><li><a href="/login">Log In</a></li></div>
             </ul>

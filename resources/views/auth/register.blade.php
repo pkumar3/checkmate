@@ -3,17 +3,22 @@
 
 @section('css')
 <style type="text/css">
-    .page-content {
-        background: linear-gradient(#3466ae, #5390f1);
-        min-height: 100vh;
+    @media screen and (min-width: 500px) {
+        #wrapper {
+            background: linear-gradient(#3466ae, #5390f1);
+        }
+
+        #page-content .card-header .card-body {
+            /* Fix the cards */
+        }
     }
 </style>
 @endsection
 
 @section('body')
     @extends('layouts.nav-home')
-<div id="main-wrapper">
-    <div class="container page-content">
+<div id="wrapper">
+    <div class="container" id="page-content">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
