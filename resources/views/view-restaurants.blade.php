@@ -166,9 +166,8 @@
                         */
                     @endphp
 
-                    <!-- Modal for displaying restaurant information -->
-                    <!-- FIX ME : Need to change code to open a modal based on click target vs id -->
-                    <div id="info-modal" class="modal-wrapper">
+                    <!-- BDubs Modal -->
+                    <div id="bdubs-modal" class="modal-wrapper">
                         <div class="modal-content">
                             <h1 class="modal-heading">Buffalo Wild Wings</h1>
                             <div class="modal-info-section">
@@ -199,16 +198,40 @@
                         </div>
                     </div>
 
-            		<div class="card flex-row flex-wrap" onclick="openModal()">
+                    <div id="test1-modal" class="modal-wrapper">
+                        <div class="modal-content">
+                            <h1 class="modal-heading">Heading for Testaurant 1</h1>
+                            <span class="close-button" onclick="closeModal()">&times;</span>
+                        </div>
+                    </div>
+
+                    <div id="test2-modal" class="modal-wrapper">
+                        <div class="modal-content">
+                            <h1 class="modal-heading">Heading for Testaurant 2</h1>
+                            <span class="close-button" onclick="closeModal()">&times;</span>
+                        </div>
+                    </div>
+
+            		<div class="card flex-row flex-wrap" onclick="openModal('bdubs-modal')">
             			<img src="https://www.buffalowildwings.com/globalassets/placeholders/appicon.png" class="rounded-circle float-left">
                         <p class="info text-right align-middle">Buffalo Wild Wings</p>
                     </div><!-- /.card -->
+
+                    <!-- Test modal buttons -->
+                    <div class="card flex-row flex-wrap" onclick="openModal('test1-modal')">
+                        <p class="info text-right align-middle">Testaurant 1</p>
+                    </div><!-- /.card -->
+
+                    <div class="card flex-row flex-wrap" onclick="openModal('test2-modal')">
+                        <p class="info text-right align-middle">Testaurant 2</p>
+                    </div><!-- /.card -->
                     
                     <script>
-                        var infoModal = document.getElementById("info-modal");
+                        var infoModal;
 
                         // Open the modal
-                        function openModal() {
+                        function openModal(target) {
+                            infoModal = document.getElementById(target);
                             infoModal.style.display = "block";
                         }
 
