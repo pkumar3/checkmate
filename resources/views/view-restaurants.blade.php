@@ -110,8 +110,8 @@
             	<div class="col-md-6">
             		<h2 id="heading">Participating Restaurants</h2>
 
-                    <?php
-                        /*
+                    @php
+                        /* "Raw" PHP code for creating view-restaurant entries
                         function get_restaurant_info($mysqli) {
                             $output_div = "";
 
@@ -164,7 +164,7 @@
 
                         // MISSING FROM OUTPUT:  Menu link, App icon link
                         */
-                    ?>
+                    @endphp
 
                     <!-- Modal for displaying restaurant information -->
                     <!-- FIX ME : Need to change code to open a modal based on click target vs id -->
