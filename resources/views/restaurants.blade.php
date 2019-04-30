@@ -217,6 +217,21 @@
                         <p class="info text-right align-middle">Buffalo Wild Wings</p>
                     </div><!-- /.card -->
 
+                    <div class="card flex-row flex-wrap" onclick="openModal()">
+                        <img src="https://irp-cdn.multiscreensite.com/c1092a55/dms3rep/multi/mac%26joesheaderweb-368x200.png" class="rounded-circle float-left">
+                        <p class="info text-right align-middle">Mac & Joe's</p>
+                    </div><!-- /.card -->
+
+                    <div class="card temp flex-row flex-wrap" onclick="openModal()">
+                        <h3 class="info align-middle">S B</h3>
+                        <p class="info text-right align-middle">Scotty's Brewhouse</p>
+                    </div><!-- /.card -->
+
+                    <div class="card temp flex-row flex-wrap" onclick="openModal()">
+                        <h3 class="info align-middle">F C</h3>
+                        <p class="info text-right align-middle">Fiesta Charra</p>
+                    </div><!-- /.card -->
+
                     <!-- Test modal buttons -->
                     <div class="card flex-row flex-wrap" onclick="openModal('test1-modal')">
                         <p class="info text-right align-middle">Testaurant 1</p>
