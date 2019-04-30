@@ -202,16 +202,64 @@
                         </div>
                     </div>
 
-                    <div id="test1-modal" class="modal-wrapper">
+                    <div id="mac-and-joes-modal" class="modal-wrapper">
                         <div class="modal-content">
-                            <h1 class="modal-heading">Heading for Testaurant 1</h1>
+                            <h1 class="modal-heading">Mac & Joe's</h1>
+                            <div class="modal-info-section">
+                                <h2>About Restaurant</h2>
+                                <p class="lead modal-section-text">This woodsy 1946 tavern with American fare provides sports TV & weekly entertainment.</p>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Hours</h2>
+                                <ul>
+                                    <li>Monday - Tuesday: 11AM - 12AM</li>
+                                    <li>Wednesday - Sunday: 11AM - 2AM</li>
+                                </ul>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Contact</h2>
+                                <ul>
+                                    <li>Phone: (513) 523-8018</li>
+                                </ul>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Location</h2>
+                                <p class="lead section-text">21 E High St, Oxford, OH - 45056</p>
+                            </div>
+                            <div class="modal-info-section">
+                                <a href="https://www.macandjoes.com/menu" class="view-menu btn text-center">View Menu</a>
+                            </div>
                             <span class="close-button" onclick="closeModal()">&times;</span>
                         </div>
                     </div>
 
-                    <div id="test2-modal" class="modal-wrapper">
+                    <div id="scottys-modal" class="modal-wrapper">
                         <div class="modal-content">
-                            <h1 class="modal-heading">Heading for Testaurant 2</h1>
+                            <h1 class="modal-heading">Scotty's Brewhouse</h1>
+                            <div class="modal-info-section">
+                                <h2>About Restaurant</h2>
+                                <p class="lead modal-section-text">Casual sports bar chain serving bottled & own-label beers, cocktails & comfort food.</p>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Hours</h2>
+                                <ul>
+                                    <li>Sunday - Tuesday: 11AM - 11PM</li>
+                                    <li>Wednesday - Saturday: 11AM - 12AM</li>
+                                </ul>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Contact</h2>
+                                <ul>
+                                    <li>Phone: (513) 280-6237</li>
+                                </ul>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Location</h2>
+                                <p class="lead section-text">325 S College Ave, Oxford, OH - 45056</p>
+                            </div>
+                            <div class="modal-info-section">
+                                <a href="https://www.scottysbrewhouse.com/menu" class="view-menu btn text-center">View Menu</a>
+                            </div>
                             <span class="close-button" onclick="closeModal()">&times;</span>
                         </div>
                     </div>
@@ -221,12 +269,12 @@
                         <p class="info text-right align-middle">Buffalo Wild Wings</p>
                     </div><!-- /.card -->
 
-                    <div class="card flex-row flex-wrap" onclick="openModal()">
+                    <div class="card flex-row flex-wrap" onclick="openModal('mac-and-joes-modal')">
                         <img src="https://irp-cdn.multiscreensite.com/c1092a55/dms3rep/multi/mac%26joesheaderweb-368x200.png" class="rounded-circle float-left">
                         <p class="info text-right align-middle">Mac & Joe's</p>
                     </div><!-- /.card -->
 
-                    <div class="card temp flex-row flex-wrap" onclick="openModal()">
+                    <div class="card temp flex-row flex-wrap" onclick="openModal('scottys-modal')">
                         <h3 class="info align-middle">S B</h3>
                         <p class="info text-right align-middle">Scotty's Brewhouse</p>
                     </div><!-- /.card -->
@@ -234,15 +282,6 @@
                     <div class="card temp flex-row flex-wrap" onclick="openModal()">
                         <h3 class="info align-middle">F C</h3>
                         <p class="info text-right align-middle">Fiesta Charra</p>
-                    </div><!-- /.card -->
-
-                    <!-- Test modal buttons -->
-                    <div class="card flex-row flex-wrap" onclick="openModal('test1-modal')">
-                        <p class="info text-right align-middle">Testaurant 1</p>
-                    </div><!-- /.card -->
-
-                    <div class="card flex-row flex-wrap" onclick="openModal('test2-modal')">
-                        <p class="info text-right align-middle">Testaurant 2</p>
                     </div><!-- /.card -->
                     
                     <script>
