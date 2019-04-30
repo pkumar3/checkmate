@@ -91,6 +91,10 @@
         width: 100%;
     }
 
+    .temp {
+        height: 95px;
+    }
+
     @media screen and (min-width: 500px) {
         .modal-content {
             margin: 15vh auto;
