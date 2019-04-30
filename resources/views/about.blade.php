@@ -17,6 +17,8 @@
 
     .mission-text {
         color: #DFDFDF;
+        text-align: justify;
+        text-justify: inter-word;
     }
 
     .team-members {
