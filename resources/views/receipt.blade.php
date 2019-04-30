@@ -5,12 +5,10 @@
 <style type="text/css">
     #receipt-area {
         color: #DFDFDF;
-        padding-bottom: 0.5rem;
     }
 
     #receipt-area h1 {
         text-align: center;
-        padding-bottom: 1.5rem;
     }
 
     #receipt-detail-area {
@@ -69,7 +67,6 @@
         <div id="page-content" class="container">
             <div id="receipt-area">
                 <h1>Receipt</h1>
-                <h3>Your card ending in {ccn-last-4} was charged {charge} at {restaurant-name}.</h3>
             </div>
             <div id="receipt-detail-area">
                 <div class="card">
@@ -84,25 +81,30 @@
                             <tbody id="receipt-detail-items-tbody">
                                 <tr>
                                     <td class="receipt-item-cell">1</td>
-                                    <td class="receipt-item-cell">item-1</td>
-                                    <td class="receipt-item-cell">$1.11</td>
+                                    <td class="receipt-item-cell">Buff Ranch Crispy Chkn</td>
+                                    <td class="receipt-item-cell">$9.29</td>
                                 </tr>
                                 <tr>
-                                    <td class="receipt-item-cell">3</td>
-                                    <td class="receipt-item-cell">item-2</td>
-                                    <td class="receipt-item-cell">$2.61</td>
+                                    <td class="receipt-item-cell">1</td>
+                                    <td class="receipt-item-cell">Mozz Sticks</td>
+                                    <td class="receipt-item-cell">$6.49</td>
+                                </tr>
+                                <tr>
+                                    <td class="receipt-item-cell">2</td>
+                                    <td class="receipt-item-cell">Red Bull</td>
+                                    <td class="receipt-item-cell">$7.98</td>
                                 </tr>
                             </tbody>
                         </table>
-                        <p class="lead" id="receipt-detail-items-total">Total: ${receipt-total}</p>
+                        <p class="lead" id="receipt-detail-items-total">Total: $23.76</p>
                     </div>
                     <form id="gratuity-area">
                         <div class="form-group">
                             <label for="gratuity">Gratuity %:</label>
-                            <input type="text" class="form-control" name="gratuity">
+                            <input type="text" class="form-control" name="gratuity" value="20" readonly>
                         </div>
                         <div class="form-group">
-                            <label id="receipt-total">Your final payment will be: ${math}</label>
+                            <label id="receipt-total">Your final payment will be: $28.51</label>
                         </div>
                         <input type="button" class="btn btn-primary" value="Confirm">
                     </form>
