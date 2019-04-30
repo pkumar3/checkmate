@@ -264,6 +264,37 @@
                         </div>
                     </div>
 
+                    <div id="charra-modal" class="modal-wrapper">
+                        <div class="modal-content">
+                            <h1 class="modal-heading">Fiesta Charra</h1>
+                            <div class="modal-info-section">
+                                <h2>About Restaurant</h2>
+                                <p class="lead modal-section-text">CRoomy, booth-lined Mexican restaurant with a low-key vibe, a full bar & lunch specials.</p>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Hours</h2>
+                                <ul>
+                                    <li>Sunday - Tuesday: 11AM - 9PM</li>
+                                    <li>Wednesday - Saturday: 11AM - 10PM</li>
+                                </ul>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Contact</h2>
+                                <ul>
+                                    <li>Phone: (513) 524-3114</li>
+                                </ul>
+                            </div>
+                            <div class="modal-info-section">
+                                <h2>Location</h2>
+                                <p class="lead section-text">25 W High St, Oxford, OH - 45056</p>
+                            </div>
+                            <div class="modal-info-section">
+                                <a href="http://fiesta-charra.com/menu/" class="view-menu btn text-center">View Menu</a>
+                            </div>
+                            <span class="close-button" onclick="closeModal()">&times;</span>
+                        </div>
+                    </div>
+
             		<div class="card flex-row flex-wrap" onclick="openModal('bdubs-modal')">
             			<img src="https://www.buffalowildwings.com/globalassets/placeholders/appicon.png" class="rounded-circle float-left">
                         <p class="info text-right align-middle">Buffalo Wild Wings</p>
@@ -279,7 +310,7 @@
                         <p class="info text-right align-middle">Scotty's Brewhouse</p>
                     </div><!-- /.card -->
 
-                    <div class="card temp flex-row flex-wrap" onclick="openModal()">
+                    <div class="card temp flex-row flex-wrap" onclick="openModal('charra-modal')">
                         <h3 class="info align-middle">F C</h3>
                         <p class="info text-right align-middle">Fiesta Charra</p>
                     </div><!-- /.card -->
