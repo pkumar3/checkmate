@@ -96,7 +96,7 @@
             <div class="team-members flex-container">
                 <div class="card">
                     <div class="card-body">
-                        <img src="{{URL::asset('storage/eli.PNG')}}">
+                        <img src="http://ceclnx01.cec.miamioh.edu/~sitkosm/expoPics/eli.PNG">
                         <h2>Elinam Gbordzoe</h2>
                         <h3>Back-end Developer</h3>
                         <p class="lead">Elinam Gbordzoe is a Back-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering.</p>
@@ -105,7 +105,7 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <img src="{{URL::asset('storage/pranshu.PNG')}}">
+                        <img src="http://ceclnx01.cec.miamioh.edu/~sitkosm/expoPics/pranshu.PNG">
                         <h2>Pranshu Kumar</h2>
                         <h3>Front-end Developer</h3>
                         <p class="lead"> Pranshu Kumar is a Front-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering.</p>
@@ -114,7 +114,7 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <img src="{{URL::asset('storage/rachel.PNG')}}">
+                        <img src="http://ceclnx01.cec.miamioh.edu/~sitkosm/expoPics/rachel.PNG">
                         <h2>Rachel Price</h2>
                         <h3>Front-end Developer</h3>
                         <p class="lead">Rachel Price is a Front-end Developer and Designer for Checkmate. She is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering. </p>
@@ -123,7 +123,8 @@
 
                 <div class="card">
                     <div class="card-body">
-                        <img src="{{URL::asset('storage/steve.PNG')}}">
+                        <!-- <img src="{{URL::asset('storage/steve.PNG')}}"> -->
+                        <img src="http://ceclnx01.cec.miamioh.edu/~sitkosm/expoPics/steve.PNG">
                         <h2>Steven Sitko</h2>
                         <h3>Front-end Developer</h3>
                         <p class="lead">Steven Sitko is a Front-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering. </p>
