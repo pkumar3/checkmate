@@ -110,7 +110,7 @@
                         <img src="http://ceclnx01.cec.miamioh.edu/~sitkosm/expoPics/pranshu.PNG">
                         <h2>Pranshu Kumar</h2>
                         <h3>Front-end Developer</h3>
-                        <p class="lead"> Pranshu Kumar is a Front-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Software Engineering.</p>
+                        <p class="lead"> Pranshu Kumar is a Front-end Developer for Checkmate. He is graduating from Miami University in May 2019 with a Bachelor in Science in Computer Science.</p>
                     </div>
                 </div>
 
