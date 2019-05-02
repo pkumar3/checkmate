@@ -87,4 +87,24 @@ class HomeController extends Controller
     {
         return view('receipt');
     }
+
+    /**
+     * Demo Stripe for payments
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function pay()
+    {
+        return view('pay');
+    }
+
+    /**
+     * Post-payment confirmation
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function thanks()
+    {
+        return view('thanks');
+    }
 }

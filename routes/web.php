@@ -23,3 +23,5 @@ Route::get('/account', 'HomeController@account')->name('account');
 Route::get('/restaurants', 'HomeController@restaurants')->name('restaurants');
 Route::get('/example-restaurant', 'HomeController@example_restaurant')->name('example-restaurant');
 Route::get('/receipt', 'HomeController@receipt')->name('receipt');
+Route::get('/pay', 'HomeController@pay')->name('pay');
+Route::post('/thanks', 'HomeController@thanks')->name('thanks');

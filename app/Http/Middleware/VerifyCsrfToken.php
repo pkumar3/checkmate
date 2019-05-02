@@ -19,6 +19,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        // Exclude from csrf verification
+        'pay/*'
     ];
 }
